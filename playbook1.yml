@@ -1,0 +1,20 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: I want to install git on redhat
+    yum:
+      name: git
+      state: present
+
+  
+  - name: I want to install tree on redhat
+    yum:
+      name: tree
+      state: present
+
+
+  - name: I want to install wget on redhat
+    yum:
+      name: wget
+      state: present
