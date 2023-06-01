@@ -18,3 +18,21 @@
     yum:
       name: wget
       state: present
+
+
+  - name: I want to install git on redhat
+    apt:
+      name: git
+      state: present
+
+  
+  - name: I want to install tree on redhat
+    apt:
+      name: tree
+      state: present
+
+
+  - name: I want to install wget on redhat
+    apt:
+      name: wget
+      state: present
